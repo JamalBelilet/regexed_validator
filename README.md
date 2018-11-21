@@ -23,12 +23,13 @@ Usage is pretty simple just pass a phone, date, email... to its validation metho
 import 'package:regexed_validator/regexed_validator.dart';
 
 main() {
-  validator.email('example@example.co.uk');
-  validator.htmlTags('<strong>Bold</strong>\n'
-      '<em>Emphazied</em>\n'
-      '<b>Bold</b>\n'
-      '<i>Italics</i>\n'
-      '<span id="foo" class="bar">Some text</span>\n'
-      '<hr />');
+  print( validator.email('example@example.co.uk') ); // true
+  print( validator.htmlTags('<strong>Bold</strong>\n'
+          '<em>Emphazied</em>\n'
+          '<b>Bold</b>\n'
+          '<i>Italics</i>\n'
+          '<span id="foo" class="bar">Some text</span>\n'
+          '<hr />')
+  ); // true
 }
 ```

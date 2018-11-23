@@ -1,9 +1,8 @@
 name: regexed_validator
-description: A library for Dart/Flutter developers for validating - phone - name - postalCode - email - url - currency - ip - date - time - htmlTags - password - creditCard
-version: 1.0.1
+description: "Validating: phone, name, postalCode, email, url, currency, ip, date, time, htmlTags, password, creditCard.\n for A Dart/Flutter developers"
+version: 1.0.2
 homepage: https://github.com/JamalBelilet/regexed_validator
 author: Djamaleddine Belilet <fd_belilet@esi.dz>
 
 environment:
   sdk: ">=2.0.0 <3.0.0"
-

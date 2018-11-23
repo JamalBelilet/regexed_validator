@@ -1,6 +1,4 @@
-A library for Dart/Flutter developers.
-[Regexed Validator at pub.dartlang.org](https://pub.dartlang.org/packages/regexed_validator "Regexed Validator")
-For validating:
+Validating:
 
 - phone
 - name
@@ -14,6 +12,9 @@ For validating:
 - htmlTags
 - password
 - creditCard
+
+For Dart/Flutter developers.
+[Regexed Validator at pub.dartlang.org](https://pub.dartlang.org/packages/regexed_validator "Regexed Validator")
 
 ## Usage
 

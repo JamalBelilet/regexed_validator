@@ -25,6 +25,15 @@ import 'package:regexed_validator/regexed_validator.dart';
 
 main() {
   print( validator.email('example@example.co.uk') ); // true
+
+  print(validator.url('http://www.nowhere.com?product=28&color=blue')); // true
+
+  print(validator.currency('£498.10')); // true
+
+  print(validator.ip('67.52.159.38')); // true
+  
+  print(validator.time('14:34 GMT -5')); // true
+
   print( validator.htmlTags('<strong>Bold</strong>\n'
           '<em>Emphazied</em>\n'
           '<b>Bold</b>\n'

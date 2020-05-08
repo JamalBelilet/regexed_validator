@@ -10,7 +10,8 @@ Validating:
 - date
 - time
 - htmlTags
-- password
+- password (strong)
+- password (medium)
 - creditCard
 
 For Dart/Flutter developers.
@@ -31,7 +32,7 @@ main() {
   print(validator.currency('£498.10')); // true
 
   print(validator.ip('67.52.159.38')); // true
-  
+
   print(validator.time('14:34 GMT -5')); // true
 
   print( validator.htmlTags('<strong>Bold</strong>\n'

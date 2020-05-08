@@ -18,8 +18,8 @@ final RegExp _timeRegex = RegExp(
 final RegExp _htmlTagsRegex = RegExp(
     r"^<(?:([A-Za-z][A-Za-z0-9]*)\b[^>]*>(?:.*?)</\1>|[A-Za-z][A-Za-z0-9]*\b[^/>]*/>)$",
     multiLine: true);
-final RegExp _passwordRegex = RegExp(
-    r"^(?=.*\d)(?=.*[~!@#$%^&*()_\-+=|\\{}[\]:;<>?/])(?=.*[A-Z])(?=.*[a-z])\S{8,15}$");
+final RegExp _passwordRegex = new RegExp(
+    r"^(?=.*\d)(?=.*[~!@#$%^&*()_\-+=|\\{}[\]:;<>?/])(?=.*[A-Z])(?=.*[a-z])\S{8,99}$");
 final RegExp _mediumPasswordRegex = RegExp(
     r"^(((?=.*[a-z])(?=.*[A-Z]))|((?=.*[a-z])(?=.*[0-9]))|((?=.*[A-Z])(?=.*[0-9])))(?=.{6,})");
 final RegExp _creditCardRegex = RegExp(

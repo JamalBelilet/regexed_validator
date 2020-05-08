@@ -1,10 +1,13 @@
+## 1.0.3
+- Add medium password strength, the strong one is still under bool password(String input)
+
 ## 1.0.2
 - Update README.md usage example and lib description
 - Update CHANGELOG.md
 - Update pubspec.yaml description
-  
+
 ## 1.0.1
-- dartfmt 
+- dartfmt
 
  ## 1.0.0
 

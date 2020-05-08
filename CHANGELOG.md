@@ -1,3 +1,6 @@
+## 1.0.4
+- Increase the length for password (strong) validation regex check
+
 ## 1.0.3
 - Add medium password strength, the strong one is still under bool password(String input)
 

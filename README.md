@@ -117,7 +117,7 @@ class MyCustomFormState extends State<MyCustomForm> {
           TextFormField(
             // The validator receives the text that the user has entered, and use regexed_validator to check if it is a valid string.
             validator: (value) {
-              if (!validator.email(value)) {
+              if (value == null || !validator.email(value)) {
                 return 'Please enter a valid email';
               }
               return null;

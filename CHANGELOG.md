@@ -1,3 +1,6 @@
+## 2.0.0
+- Increase the length for password (strong) validation regex check
+
 ## 1.0.4
 - Increase the length for password (strong) validation regex check
 

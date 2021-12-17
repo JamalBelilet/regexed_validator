@@ -1,3 +1,6 @@
+## 2.0.0+1
+- Update README.md flutter example
+
 ## 2.0.0
 - Increase the length for password (strong) validation regex check
 
